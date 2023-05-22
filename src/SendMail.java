@@ -21,7 +21,7 @@ public class SendMail {
 
       Session session = Session.getInstance(properties, new javax.mail.Authenticator(){
         protected PasswordAuthentication getPasswordAuthentication() {
-          return new PasswordAuthentication("receiver@gmail.com", "*******");
+          return new PasswordAuthentication("sender@gmail.com", "*******");
         }
       });
 
